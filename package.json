@@ -1,0 +1,16 @@
+{
+  "name": "github-fetch",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "then-request": "^2.1.1",
+    "uri-templates": "^0.1.9"
+  }
+}
