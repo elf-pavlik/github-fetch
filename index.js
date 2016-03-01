@@ -16,7 +16,7 @@ var api =  {
 function parseNumberOfPages(response) {
   if(response.headers.link) {
     //and matches rel="last"
-    return Number(response.headers.link.match(/.*page=(.*)> rel="last"/)[1])
+    return Number(response.headers.link.match(/.*page=(.*)>; rel="last"/)[1])
   } else {
     return 1
   }
